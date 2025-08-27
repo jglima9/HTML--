@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>Formatação de texto</title>
+    
+</head>
+<body>
+    <h1>Aprendendo sobre estilo de textos</h1>
+    <hr>
+    <h2>Negrito / Destaque </h2>
+    <p>Para deixar <b>um trecho do texto em negrito</b> basta utilizar a tag "b", tag NÂO semântica</p>
+    <p>Outra forma de deixar <strong>um trecho do texto em negrito</strong> é utilizar a tag "strong", tag semântica (USAR ESSA SMP)</p>
+    <p><b>Tags semanticas são aquelas que tem um propósito definido e descrevam claramente o conteudo que delimitam. Por outro lado, as tags não semanticas não tem um proposito claro e são usadas principalmente para estilização e organização do código.</b></p>
+    <hr>
+    <h2><i> Italico / ênfase</i></h2>
+    <p>Para deixar <i>um trecho do texto em itálico</i> basta utilizar a tag "i", tag NÂO semântica</p>
+    <p>Outra forma de deixar <em>um trecho do texto em itálico</em> é utilizar a tag "em", tag semântica (USAR ESSA SMP)</p>
+    <hr>
+
+    <h2><i> Marcador de texto com modificação de cor </i></h2>
+    <p>Para deixar <mark style= "background-color:#0065FF;"> um trecho do texto marcado</mark> basta utilizar a tag "mark", e caso queira mudar a cor da marcação, basta adicionar dentro dos colchetes angulares da tag, um 'style="background-color:#0065FF;"' modificando a representação hexadecimal da cor desejada.</p>
+    
+    <p> <mark style= "background-color:#Ffcbdb;"> Lembrando que COR é FORMA (CSS) e não SIGNIFICADO (HTML) </mark> </p>
+    
+    <p> outra forma de modificar a cor da tag mark é adicionar um 'style' na Head do html:</p>
+    
+    <p> &lt;style&gt;
+    <br>
+    <br>     mark {
+    <br>
+    <br>	   background-color: #Ffcbdb;
+    <br>
+    <br>	     } </p>
+
+    <p> As chaves são seletores que precisam ser abertos para a tag mark </p>
+
+    <hr>
+    <h2> Textos grandes e pequenos </h2>
+    <p> Embora a tag 'big' já tenha caido em desuso, ainda funciona para <b><big>aumentar um pouco as letras.</b></big></p> 
+    <p> a tag 'small' funciona para deixar as letras <b><small>um pouco menores</b></small></p>
+
+
+<h2> Textos excluídos e Inseridos </h2>
+    <p> Podemos marcar um texto como excluido usando a tag 'del' <del>embora ele possa ser lido, não deve ser considerado.</del></p> 
+    <p> E podemos marcar um texto com incluído usando a tag 'ins' <ins>e ele ficará marcado dessa forma.</ins></p>
+    <p>que é a mesma forma de deixar um texto sublinhado <u>um trecho do texto sublinhado</u> utilizando a tag "u", tag NÂO semântica</p>
+    <hr>
+
+ <h2>Texto sobrescrito e subescrito</h2>
+    <p>Para deixar uma informação sobrescrita x<sup>20</sup>+3 basta utilizar a tag "sup"</p>
+    <p>Para deixar um trecho do texto subescrito H<sub>2</sub>O basta utilizar a tag "sub"</p>
+<hr>
+
+
+</body>
+</html>
