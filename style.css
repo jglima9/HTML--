@@ -1,0 +1,32 @@
+body {
+    background-color:#5F9EA0;
+
+}
+
+h1 {
+    font-family: Helvetica;
+    color: darkGray;
+
+}
+
+p {
+
+    color: pink;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+
+.red1 {
+
+    color: red;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.blue1 {
+
+    color: blue;
+    font-weight: bold;
+    font-family: cursive;
+}
