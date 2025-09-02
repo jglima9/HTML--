@@ -28,6 +28,10 @@ button:hover {
 html {
   
   background-color: black;
+  
+}
+
+body {
   color: white;
 }
 
@@ -39,3 +43,4 @@ hr {
   margin: 5px 0;
 
 }
+
