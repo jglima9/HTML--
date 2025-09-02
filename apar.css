@@ -19,7 +19,7 @@ button:hover {
 
 }
 
-h5 {
+.titulo5 {
  
   color: #5F9EA0;
 
@@ -28,7 +28,7 @@ h5 {
 html {
   
   background-color: black;
-
+  color: white;
 }
 
 hr {
