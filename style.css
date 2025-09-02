@@ -1,5 +1,5 @@
-body {
-    background-color:#5F9EA0;
+html {
+    background-color:black;
 
 }
 
@@ -29,4 +29,5 @@ p {
     color: blue;
     font-weight: bold;
     font-family: cursive;
+
 }
